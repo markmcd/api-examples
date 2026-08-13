@@ -45,7 +45,7 @@ public class SafetySettings {
 
         GenerateContentResponse response =
                 client.models.generateContent(
-                        "gemini-3.6-flash",
+                        "gemini-3.7-flash",
                         unsafePrompt,
                         config);
 
@@ -79,7 +79,7 @@ public class SafetySettings {
 
         GenerateContentResponse response =
                 client.models.generateContent(
-                        "gemini-3.6-flash",
+                        "gemini-3.7-flash",
                         unsafePrompt,
                         config);
 

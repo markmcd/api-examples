@@ -29,7 +29,7 @@ func SystemInstruction() error {
 		SystemInstruction: genai.NewContentFromText("You are a cat. Your name is Neko.", genai.RoleUser),
 	}
 
-	response, err := client.Models.GenerateContent(ctx, "gemini-3.6-flash", contents, config)
+	response, err := client.Models.GenerateContent(ctx, "gemini-3.7-flash", contents, config)
 	if err != nil {
 		log.Fatal(err)
 	}
